@@ -1,0 +1,14 @@
+@import "./settings/mixins";
+@import "./settings/fonts";
+
+body {
+    background-color: #cccccc;
+    font-size: 14px;
+    font-family: "Montserrat-Regular", sans-serif;
+}
+.wrapper {
+    display: flex;
+}
+.background {
+    background-image: url("../img/cute-dog.jpg");
+}
